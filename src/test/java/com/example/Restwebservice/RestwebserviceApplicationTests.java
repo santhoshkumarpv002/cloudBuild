@@ -1,10 +1,10 @@
-package com.anbuzhobbiez.spannerdemo;
+package com.example.Restwebservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpannerdemoApplicationTests {
+class RestwebserviceApplicationTests {
 
 	@Test
 	void contextLoads() {

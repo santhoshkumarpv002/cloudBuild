@@ -1,13 +1,16 @@
-package com.anbuzhobbiez.spannerdemo;
+
+
+
+package com.example.Restwebservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpannerdemoApplication {
+public class RestwebserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpannerdemoApplication.class, args);
+		SpringApplication.run(RestwebserviceApplication.class, args);
 	}
 
 }
