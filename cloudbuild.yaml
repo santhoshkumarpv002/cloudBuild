@@ -17,8 +17,8 @@ steps:
       - 'demo'
       - '--image'
       - 'gcr.io/$PROJECT_ID/demo:$COMMIT_SHA'
-#      - '--region'
-#      - '$_DEPLOY_REGION'
+      - '--region'
+      - 'asia-south2'
 
 options:
   logging: CLOUD_LOGGING_ONLY
