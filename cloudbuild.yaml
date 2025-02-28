@@ -14,7 +14,7 @@ steps:
     args:
       - 'run'
       - 'deploy'
-      - '$_SERVICE_NAME'
+      - 'demo'
       - '--image'
       - 'gcr.io/$PROJECT_ID/demo:$COMMIT_SHA'
       - '--region'
