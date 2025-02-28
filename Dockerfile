@@ -1,8 +1,3 @@
-# FROM alpine/java:21-jdk
-# ARG JAR_FILE=target/*.jar
-# COPY ${JAR_FILE} app.jar
-# ENTRYPOINT ["java","-jar","/app.jar"]
-
 # Use a base image that supports Java 21
 FROM openjdk:21-jdk-slim AS build
 
@@ -33,5 +28,3 @@ EXPOSE 8080
 
 # Run the application
 CMD ["java", "-jar", "app.jar"]
-
-
