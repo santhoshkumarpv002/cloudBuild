@@ -20,7 +20,7 @@ steps:
       - '--region'
       - 'asia-south2'
       - '--max-instances'
-      - '100'  # Set the maximum number of instances to 100
+      - '10'  # Set the maximum number of instances to 100
 
 options:
   logging: CLOUD_LOGGING_ONLY
